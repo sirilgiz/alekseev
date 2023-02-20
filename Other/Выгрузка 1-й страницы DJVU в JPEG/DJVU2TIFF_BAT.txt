@@ -1,0 +1,4 @@
+for %%f in (*.djvu) do (
+  "%ProgramFiles(x86)%\DjVuLibre\ddjvu.exe" -format=tiff -page=1 -quality=25 -size=600x800 %%f %%~nf.TIFF 
+)
+pause
