@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://ns.adobe.com/acrobat/workflow/2012" title="Создать обложку ФАЙЛУ с выбором ЦВЕТА" description="Генерирует обложку с названием файла для указанного файла" majorVersion="1" minorVersion="0">
+	<Sources defaultCommand="WorkflowPlaybackSelectFile"/>
+	<Group label="Без имени">
+		<Command name="InsertBlankPage" pauseBefore="false" promptUser="false">
+			<Items>
+				<Item name="CustomPositionInDoc" type="integer" value="-1"/>
+				<Item name="InsertBefore" type="boolean" value="true"/>
+				<Item name="InsertBlankPage" type="boolean" value="true"/>
+				<Item name="PageString" type="text" value="1"/>
+				<Item name="Position" type="integer" value="1"/>
+			</Items>
+		</Command>
+		<Command name="COMP:AddBackground" pauseBefore="false" promptUser="true">
+			<Items>
+				<Items name="WaterBackCmd">
+					<Item name="ANNOT" type="boolean" value="false"/>
+					<Item name="BACKGROUND" type="boolean" value="true"/>
+					<Item name="COLOR1" type="double" value="0.329407"/>
+					<Item name="COLOR2" type="double" value="0.509811"/>
+					<Item name="COLOR3" type="double" value="0.184311"/>
+					<Item name="COLOR4" type="double" value="1.000000"/>
+					<Item name="COLORSPACE" type="atom" value="DeviceRGB"/>
+					<Item name="END" type="integer" value="0"/>
+					<Item name="EVEN" type="boolean" value="true"/>
+					<Item name="FIXED_PRINT" type="boolean" value="false"/>
+					<Item name="FONT_CHARSET" type="atom" value=""/>
+					<Item name="FONT_ENCODING" type="atom" value=""/>
+					<Item name="FONT_NAME" type="atom" value=""/>
+					<Item name="FONT_SIZE" type="double" value="24.000000"/>
+					<Item name="FONT_TYPE" type="atom" value=""/>
+					<Item name="FROM_FILE" type="boolean" value="false"/>
+					<Item name="HORIZ_ALIGN" type="integer" value="1"/>
+					<Item name="HORIZ_VALUE" type="double" value="0.000000"/>
+					<Item name="ODD" type="boolean" value="true"/>
+					<Item name="ON_PRINT" type="boolean" value="true"/>
+					<Item name="ON_SCREEN" type="boolean" value="true"/>
+					<Item name="OPACITY" type="double" value="1.000000"/>
+					<Item name="REPLACE" type="boolean" value="false"/>
+					<Item name="ROTATION" type="integer" value="0"/>
+					<Item name="SCALE" type="double" value="-1.000000"/>
+					<Item name="SRCPAGE" type="integer" value="0"/>
+					<Item name="SRCTEXT" type="null"/>
+					<Item name="START" type="integer" value="0"/>
+					<Item name="TEXT_ALIGN" type="integer" value="0"/>
+					<Item name="UNITS" type="integer" value="2"/>
+					<Item name="VERT_ALIGN" type="integer" value="1"/>
+					<Item name="VERT_VALUE" type="double" value="0.000000"/>
+					<Item name="WATERMARK" type="boolean" value="false"/>
+				</Items>
+			</Items>
+		</Command>
+		<Command name="JavaScript" pauseBefore="false" promptUser="false">
+			<Items>
+				<Item name="ScriptCode" type="text" value="    var oDoc = event.target;&#xD;&#xA;    var strLabel = oDoc.documentFileName.replace(/\n/g,&quot;\r&quot;);&#xD;&#xA;    strLabel = strLabel.toUpperCase();&#xD;&#xA;    strLabel = strLabel.substr(0,strLabel.lastIndexOf(&quot;.&quot;));&#xD;&#xA;    strLabel = strLabel.replace(/\_/g,&quot; &quot;).replace(/-/g,&quot; &quot;).replace(/\S{2}\s*\S*\s+/g,&quot;$&amp;\n\n&quot;).replace(/.{14}\s*/g,&quot;$&amp;\n\n&quot;).replace(/\s{2}\s+/g,&quot;\n\n&quot;);&#xD;&#xA;     &#xD;&#xA;    try{&#xD;&#xA;        //  Create watermark&#xD;&#xA;        oDoc.addWatermarkFromText({&#xD;&#xA;             cText:strLabel, &#xD;&#xA;             nTextAlign:app.constants.align.center, &#xD;&#xA;             cFont:&quot;Arial Black&quot;,&#xD;&#xA;             nFontSize:50, &#xD;&#xA;             aColor:color.white, &#xD;&#xA;             nStart:0, &#xD;&#xA;             nEnd:0,&#xD;&#xA;             nHorizAlign:app.constants.align.center, &#xD;&#xA;             nVertAlign:app.constants.align.center});&#xD;&#xA;       }catch(e){&#xD;&#xA;         app.alert(&quot;Ошибка создания обложки для:\n&quot;+strLabel+&quot;\n&quot;+&quot;ErrCode:&quot; + e);&#xD;&#xA;       }&#xD;&#xA;    "/>
+				<Item name="ScriptName" type="text" value=""/>
+			</Items>
+		</Command>
+		<Command name="WorkflowPlaybackSaveFiles" pauseBefore="false" promptUser="false">
+			<Items>
+				<Item name="AddToBaseName" type="boolean" value="false"/>
+				<Item name="DocSaveDestType" type="string" value="WorkflowPlaybackSave"/>
+				<Item name="DontOverwrite" type="boolean" value="true"/>
+				<Item name="EmbedIndex" type="boolean" value="false"/>
+				<Item name="FileVariation" type="integer" value="0"/>
+				<Item name="HandleOutput" type="boolean" value="true"/>
+				<Item name="InsertAfterBaseName" type="text" value=""/>
+				<Item name="InsertBeforeBaseName" type="text" value=""/>
+				<Item name="NumbericNaming" type="boolean" value="false"/>
+				<Item name="OptimizePDF" type="boolean" value="true"/>
+				<Item name="PresetName" type="text" value="Стандартные"/>
+				<Item name="RunPDFOptimizer" type="boolean" value="false"/>
+			</Items>
+		</Command>
+	</Group>
+</Workflow>
