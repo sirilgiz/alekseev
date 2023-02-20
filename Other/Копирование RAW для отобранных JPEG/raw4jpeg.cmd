@@ -1,4 +1,4 @@
-@echo off
+@echo on
 goto start
 ------
 Скрипт перебирает файлы в текущей папке и для каждого обнаруженного JPEG-файла ищет одноименный RAW-файл в папке на 1 уровень выше. Если соответствующий RAW-файл найден, он переносится в папку RAW (создается автоматически).
@@ -18,11 +18,11 @@ SET raw_file_ext=ARW& :: расширение RAW-файлов. Например, строка "SET raw_file_e
 SET raw_new_folder_name=RAW& :: опеределяет название папки, в которую сприпт переносит найденные RAW-файлы. Например, строка "SET raw_new_folder_name=RAW" задает название папки "RAW"
 
 for %%f in (*.jp*g) do (
-	IF EXIST ..\%%~nf.%raw_file_ext% (
-		IF NOT EXIST ..\%raw_new_folder_name% md ..\%raw_new_folder_name%
-		move /Y ..\%%~nf.%raw_file_ext% ..\%raw_new_folder_name%\%%~nf.%raw_file_ext%
+	IF EXIST "..\%%~nf.%raw_file_ext%" (
+		IF NOT EXIST "..\%raw_new_folder_name%" md "..\%raw_new_folder_name%"
+		move /Y "..\%%~nf.%raw_file_ext%" "..\%raw_new_folder_name%\%%~nf.%raw_file_ext%"
         ) ELSE (
-            echo %%~nf.%raw_file_ext% не найден
+            echo "%%~nf.%raw_file_ext%" не найден
         )
 )
 
