@@ -15,7 +15,7 @@ SETLOCAL
 	if "%taglist%" EQU "" goto END
 	for /f "delims=;" %%a in ("%taglist%") do set substring=%%a
 	rem echo %filename% %substring%
-	exiv2.exe -M"set Xmp.dc.subject "%substring%"" "%filename%"
+	c:\exiv2\exiv2.exe -M"set Xmp.dc.subject "%substring%"" "%filename%"
 :striploop
     set stripchar=%taglist:~0,1%
     set taglist=%taglist:~1%
