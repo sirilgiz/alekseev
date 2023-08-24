@@ -73,10 +73,10 @@
       },
       "Assemblies": [
         "C:\\Users\\siril\\.nuget\\packages\\avalonedit\\5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
         "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
         "C:\\Users\\siril\\.nuget\\packages\\humanizer.core\\2.4.2\\lib/netstandard2.0/Humanizer.dll",
@@ -107,13 +107,24 @@
         "C:\\Users\\siril\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.1\\lib/net461/UiPath.Wizards.dll",
         "C:\\Users\\siril\\.nuget\\packages\\uipath.vision\\2.0.3\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\siril\\.nuget\\packages\\uipath.vision\\2.0.3\\lib/net461/UiPath.Vision.Core.dll",
-        "C:\\Users\\siril\\.nuget\\packages\\uipath.vision\\2.0.3\\lib/net461/UiPath.Vision.dll",
         "C:\\Users\\siril\\.nuget\\packages\\uipath.vision\\2.0.3\\lib/net461/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\siril\\.nuget\\packages\\uipath.vision\\2.0.3\\lib/net461/UiPath.Vision.Microsoft.dll",
         "C:\\Users\\siril\\.nuget\\packages\\uipath.vision\\2.0.3\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\siril\\.nuget\\packages\\uipath.vision\\2.0.3\\lib/net461/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\siril\\.nuget\\packages\\uipath.vision\\2.0.3\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\siril\\.nuget\\packages\\uipath.vision\\2.0.3\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\siril\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.1"
+    },
+    {
+      "Package": {
+        "Id": "BalaReva.EasyLanguage.Activities",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\siril\\.nuget\\packages\\balareva.easylanguage.activities\\1.0.0\\lib/BalaReva.EasyLanguage.Design.dll",
+        "C:\\Users\\siril\\.nuget\\packages\\balareva.easylanguage.activities\\1.0.0\\lib/BalaReva.EasyLanguage.dll"
+      ],
+      "Path": "C:\\Users\\siril\\.nuget\\packages\\balareva.easylanguage.activities\\1.0.0"
     }
   ],
   "Conflicts": [],
@@ -121,6 +132,11 @@
     "AvalonEdit": {
       "Id": "AvalonEdit",
       "Version": "5.0.3",
+      "Dependencies": []
+    },
+    "BalaReva.EasyLanguage.Activities": {
+      "Id": "BalaReva.EasyLanguage.Activities",
+      "Version": "1.0.0",
       "Dependencies": []
     },
     "BouncyCastle": {
@@ -427,6 +443,17 @@
     },
     {
       "Package": {
+        "Id": "BalaReva.EasyLanguage.Activities",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\siril\\.nuget\\packages\\balareva.easylanguage.activities\\1.0.0\\lib\\BalaReva.EasyLanguage.Design.dll",
+        "C:\\Users\\siril\\.nuget\\packages\\balareva.easylanguage.activities\\1.0.0\\lib\\BalaReva.EasyLanguage.dll"
+      ],
+      "Path": "C:\\Users\\siril\\.nuget\\packages\\balareva.easylanguage.activities\\1.0.0"
+    },
+    {
+      "Package": {
         "Id": "BouncyCastle",
         "Version": "1.8.5"
       },
@@ -471,10 +498,10 @@
         "Version": "2.8.0"
       },
       "Assemblies": [
-        "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.DataGrid.dll",
         "C:\\Users\\siril\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
       ],
