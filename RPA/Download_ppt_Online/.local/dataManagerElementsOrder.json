@@ -1,0 +1,48 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "vStrLangDesc&Flowchart_13",
+        "vStrLangCode&Flowchart_13",
+        "vBol_ConfigFileExists&Flowchart_2",
+        "vStr_ConfigFileContents&Flowchart_2",
+        "vStr_VaraiableLine&Flowchart_2",
+        "vStr_SiteName&Flowchart_2",
+        "vStr_DownloadFolder&Flowchart_2",
+        "vStr_DownloadOneCategory&Flowchart_2",
+        "ExtractDataTable&Flowchart_2",
+        "vObj_Browser&Flowchart_2",
+        "vStr_LastCategory&Flowchart_2",
+        "vTbl&Flowchart_2",
+        "ExtractDataTableAll&Flowchart_2",
+        "vStr_DownloadStartFromCat&Flowchart_2",
+        "ExtractDataTablePres&Flowchart_2",
+        "vStr_LogFilePath&Flowchart_2",
+        "ExtractDataTablePres2&Flowchart_2",
+        "vInt_PageItems&Flowchart_2",
+        "vInt_PageNb&Flowchart_2",
+        "vBol_FolderExists&Flowchart_2",
+        "vStr_PresName&Flowchart_2",
+        "VBol_Pres_Exisits&Flowchart_2",
+        "vStr_WebMessage&Flowchart_2",
+        "vObj_Exception&Flowchart_1",
+        "vStr_TobeParsed&Flowchart_3",
+        "vStr_LogPath&Flowchart_4",
+        "vStr_CurrentFolder&Flowchart_11"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

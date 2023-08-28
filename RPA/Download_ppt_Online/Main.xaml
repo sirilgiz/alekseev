@@ -798,7 +798,7 @@
                                                                           <av:PointCollection x:Key="ConnectorLocation">220,1090 463,1090 463,870 493,870</av:PointCollection>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                      <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[ExtractDataTablePres2]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="500,313" sap2010:WorkflowViewState.IdRef="ForEachRow_5">
+                                                                      <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[ExtractDataTablePres2]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="ForEachRow_5">
                                                                         <ui:ForEachRow.Body>
                                                                           <ActivityAction x:TypeArguments="sd:DataRow">
                                                                             <ActivityAction.Argument>
@@ -810,7 +810,7 @@
                                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                 </scg:Dictionary>
                                                                               </sap:WorkflowViewStateService.ViewState>
-                                                                              <Flowchart DisplayName="Save Presentation" sap:VirtualizedContainerService.HintSize="1128,2383" sap2010:WorkflowViewState.IdRef="Flowchart_13">
+                                                                              <Flowchart DisplayName="Save Presentation" sap:VirtualizedContainerService.HintSize="1200,2383" sap2010:WorkflowViewState.IdRef="Flowchart_13">
                                                                                 <Flowchart.Variables>
                                                                                   <Variable x:TypeArguments="x:String" Name="vStrLangCode" />
                                                                                   <Variable x:TypeArguments="x:String" Name="vStrLangDesc" />
@@ -822,7 +822,7 @@
                                                                                     <av:Size x:Key="ShapeSize">60,75</av:Size>
                                                                                     <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,107.5 385.895,107.5 385.895,117.5</av:PointCollection>
                                                                                     <x:Double x:Key="Height">2345.5</x:Double>
-                                                                                    <x:Double x:Key="Width">1094</x:Double>
+                                                                                    <x:Double x:Key="Width">1166.5</x:Double>
                                                                                   </scg:Dictionary>
                                                                                 </sap:WorkflowViewStateService.ViewState>
                                                                                 <Flowchart.StartNode>
@@ -1235,11 +1235,11 @@
                                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                       <av:Point x:Key="ShapeLocation">168.895,117.5</av:Point>
-                                                                                      <av:Size x:Key="ShapeSize">434,82</av:Size>
+                                                                                      <av:Size x:Key="ShapeSize">434,81</av:Size>
                                                                                       <av:PointCollection x:Key="ConnectorLocation">385.895,198.5 385.79,198.5 385.79,217.5</av:PointCollection>
                                                                                     </scg:Dictionary>
                                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                                  <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_18">
+                                                                                  <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_18">
                                                                                     <Assign.To>
                                                                                       <OutArgument x:TypeArguments="x:String">[vStr_PresName]</OutArgument>
                                                                                     </Assign.To>
@@ -1257,11 +1257,11 @@
                                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                           <av:Point x:Key="ShapeLocation">168.79,217.5</av:Point>
-                                                                                          <av:Size x:Key="ShapeSize">434,82</av:Size>
+                                                                                          <av:Size x:Key="ShapeSize">434,81</av:Size>
                                                                                           <av:PointCollection x:Key="ConnectorLocation">385.79,299.5 385.79,329.5 313.79,329.5 313.79,337.5</av:PointCollection>
                                                                                         </scg:Dictionary>
                                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                                      <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_19">
+                                                                                      <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_19">
                                                                                         <Assign.To>
                                                                                           <OutArgument x:TypeArguments="x:String">[vStr_PresName]</OutArgument>
                                                                                         </Assign.To>
@@ -1620,21 +1620,6 @@
                                                                                     <x:Reference>__ReferenceID43</x:Reference>
                                                                                   </FlowStep.Next>
                                                                                 </FlowStep>
-                                                                                <FlowStep>
-                                                                                  <sap:WorkflowViewStateService.ViewState>
-                                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                      <av:Point x:Key="ShapeLocation">775.816666666667,313.52</av:Point>
-                                                                                      <av:Size x:Key="ShapeSize">228,52</av:Size>
-                                                                                    </scg:Dictionary>
-                                                                                  </sap:WorkflowViewStateService.ViewState>
-                                                                                  <ui:Replace Input="{x:Null}" Replacement="{x:Null}" BuilderPattern="/[&quot;'][\w\s]+[&quot;']|\w+[&quot;']\w+/" sap:VirtualizedContainerService.HintSize="228,52" sap2010:WorkflowViewState.IdRef="Replace_2" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;ADV&quot;,&quot;OperationName&quot;:&quot;Дополнительно&quot;,&quot;OperationValue&quot;:&quot;\/[\&quot;'][\\w\\s]+[\&quot;']|\\w+[\&quot;']\\w+\/&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Точно&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="/[&quot;'][\w\s]+[&quot;']|\w+[&quot;']\w+/" RegexOption="IgnoreCase">
-                                                                                    <sap:WorkflowViewStateService.ViewState>
-                                                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                                      </scg:Dictionary>
-                                                                                    </sap:WorkflowViewStateService.ViewState>
-                                                                                  </ui:Replace>
-                                                                                </FlowStep>
                                                                               </Flowchart>
                                                                             </Sequence>
                                                                           </ActivityAction>
@@ -1650,11 +1635,11 @@
                                                                           <sap:WorkflowViewStateService.ViewState>
                                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                               <av:Point x:Key="ShapeLocation">493,829</av:Point>
-                                                                              <av:Size x:Key="ShapeSize">434,82</av:Size>
+                                                                              <av:Size x:Key="ShapeSize">434,81</av:Size>
                                                                               <av:PointCollection x:Key="ConnectorLocation">710,829 710,680 0,680 0,478.5 120,478.5 120,508.5</av:PointCollection>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                          <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_16">
+                                                                          <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_16">
                                                                             <Assign.To>
                                                                               <OutArgument x:TypeArguments="x:Int32">[vInt_PageNb]</OutArgument>
                                                                             </Assign.To>
@@ -1705,11 +1690,11 @@
                                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                           <av:Point x:Key="ShapeLocation">169,710</av:Point>
-                                                                                          <av:Size x:Key="ShapeSize">434,82</av:Size>
+                                                                                          <av:Size x:Key="ShapeSize">434,81</av:Size>
                                                                                           <av:PointCollection x:Key="ConnectorLocation">386,791 320.895,791 320.895,793.5</av:PointCollection>
                                                                                         </scg:Dictionary>
                                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                                      <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_13">
+                                                                                      <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_13">
                                                                                         <Assign.To>
                                                                                           <OutArgument x:TypeArguments="sd:DataTable">[ExtractDataTablePres2]</OutArgument>
                                                                                         </Assign.To>
@@ -1794,16 +1779,16 @@
                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                           <av:Point x:Key="ShapeLocation">169,410</av:Point>
-                                                                          <av:Size x:Key="ShapeSize">434,82</av:Size>
+                                                                          <av:Size x:Key="ShapeSize">434,81</av:Size>
                                                                           <av:PointCollection x:Key="ConnectorLocation">386,492 386,550 234,550</av:PointCollection>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                      <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_14">
+                                                                      <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_14">
                                                                         <Assign.To>
                                                                           <OutArgument x:TypeArguments="x:Int32">[vInt_PageNb]</OutArgument>
                                                                         </Assign.To>
                                                                         <Assign.Value>
-                                                                          <InArgument x:TypeArguments="x:Int32">51</InArgument>
+                                                                          <InArgument x:TypeArguments="x:Int32">89</InArgument>
                                                                         </Assign.Value>
                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1890,11 +1875,11 @@
                                                                           <sap:WorkflowViewStateService.ViewState>
                                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                               <av:Point x:Key="ShapeLocation">168.895,310</av:Point>
-                                                                              <av:Size x:Key="ShapeSize">434,82</av:Size>
+                                                                              <av:Size x:Key="ShapeSize">434,81</av:Size>
                                                                               <av:PointCollection x:Key="ConnectorLocation">385.895,391 385.895,410 386,410</av:PointCollection>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                          <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_17">
+                                                                          <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_17">
                                                                             <Assign.To>
                                                                               <OutArgument x:TypeArguments="x:String">[vStr_CurrentFolder]</OutArgument>
                                                                             </Assign.To>
