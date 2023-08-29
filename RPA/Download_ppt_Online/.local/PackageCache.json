@@ -2,6 +2,17 @@
   "Packages": [
     {
       "Package": {
+        "Id": "BalaReva.EasyLanguage.Activities",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\siril\\.nuget\\packages\\balareva.easylanguage.activities\\1.0.0\\lib/BalaReva.EasyLanguage.Design.dll",
+        "C:\\Users\\siril\\.nuget\\packages\\balareva.easylanguage.activities\\1.0.0\\lib/BalaReva.EasyLanguage.dll"
+      ],
+      "Path": "C:\\Users\\siril\\.nuget\\packages\\balareva.easylanguage.activities\\1.0.0"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.8.3-beta.851189"
       },
@@ -114,17 +125,6 @@
         "C:\\Users\\siril\\.nuget\\packages\\uipath.vision\\2.0.3\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\siril\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.1"
-    },
-    {
-      "Package": {
-        "Id": "BalaReva.EasyLanguage.Activities",
-        "Version": "1.0.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\siril\\.nuget\\packages\\balareva.easylanguage.activities\\1.0.0\\lib/BalaReva.EasyLanguage.Design.dll",
-        "C:\\Users\\siril\\.nuget\\packages\\balareva.easylanguage.activities\\1.0.0\\lib/BalaReva.EasyLanguage.dll"
-      ],
-      "Path": "C:\\Users\\siril\\.nuget\\packages\\balareva.easylanguage.activities\\1.0.0"
     }
   ],
   "Conflicts": [],
