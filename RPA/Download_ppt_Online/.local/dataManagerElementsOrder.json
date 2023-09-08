@@ -12,6 +12,12 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "variable1&Flowchart_13",
+        "vObj_UiSaveWindow&Flowchart_13",
+        "vInt_LastVpn&Flowchart_2",
+        "vStr_LastVpn&Flowchart_2",
+        "vDT_VpnDataTable&Flowchart_2",
+        "vBol_VpnFileExists&Flowchart_2",
         "vStrLangDesc&Flowchart_13",
         "vStrLangCode&Flowchart_13",
         "vBol_ConfigFileExists&Flowchart_2",
@@ -40,7 +46,9 @@
         "vStr_LogPath&Flowchart_4",
         "vStr_CurrentFolder&Flowchart_11"
       ],
-      "ArgumentsSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "vStr_SiteName___download___row_1__ToString"
+      ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     }
