@@ -122,7 +122,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadCsvFile Delimitator="Semicolon" DisplayName="Read CSV" FilePath="E:\\git\\alekseev\\RPA\\Скачать презы из Слайдотеки\\презы-авторы-ссылки.csv" sap:VirtualizedContainerService.HintSize="656,154" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" IncludeColumnNames="False">
+    <ui:ReadCsvFile Delimitator="Semicolon" DisplayName="Read CSV" FilePath="E:\\git\\alekseev\\RPA\\Скачать презы из Слайдотеки\\links_17.10.2023_разница.csv" sap:VirtualizedContainerService.HintSize="656,154" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" IncludeColumnNames="False">
       <ui:ReadCsvFile.DataTable>
         <OutArgument x:TypeArguments="sd:DataTable">
           <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">Dt_links</CSharpReference>

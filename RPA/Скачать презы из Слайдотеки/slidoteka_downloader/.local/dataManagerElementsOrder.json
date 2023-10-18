@@ -1,0 +1,38 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "oDownloadedFile&Sequence_5",
+        "Dt_links&Sequence_1",
+        "strCurrentFileName&Sequence_2",
+        "strCurrentFileUrl&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "oDownloadedFile&Sequence_2",
+        "Dt_links&Sequence_1",
+        "strCurrentFileName&Sequence_2",
+        "strCurrentFileUrl&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
