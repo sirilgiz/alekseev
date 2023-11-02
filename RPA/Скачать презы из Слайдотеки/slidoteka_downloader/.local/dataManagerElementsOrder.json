@@ -12,6 +12,9 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "bFileIsDownloaded&Sequence_5",
+        "bFolderExists&Sequence_5",
+        "strCurrentAuthorName&Sequence_2",
         "oDownloadedFile&Sequence_5",
         "Dt_links&Sequence_1",
         "strCurrentFileName&Sequence_2",
@@ -25,6 +28,7 @@
       "Path": "Main2.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "strCurrentAuthorName&Sequence_2",
         "oDownloadedFile&Sequence_2",
         "Dt_links&Sequence_1",
         "strCurrentFileName&Sequence_2",
