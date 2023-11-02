@@ -1,6 +1,6 @@
 DOWNLOAD_SITE:https://en.ppt-online.org/
-DOWNLOAD_FILES_FOLDER_PATH:D:\Downloads\ppt-online.org\download
-DOWNLOAD_LOG_FOLDER_PATH:D:\Downloads\ppt-online.org\logs
+DOWNLOAD_FILES_FOLDER_PATH:c:\Downloads\ppt-online.org\download
+DOWNLOAD_LOG_FOLDER_PATH:c:\Downloads\ppt-online.org\logs
 DOWNLOAD_ONE_CATEGORY:Y
-DOWNLOAD_START_FROM_CATEGORY:management
-LAST_CATEGORY:WARFARE
+DOWNLOAD_START_FROM_CATEGORY:FINANCE
+LAST_CATEGORY:FINANCE

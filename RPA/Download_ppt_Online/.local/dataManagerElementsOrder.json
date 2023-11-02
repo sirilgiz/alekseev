@@ -12,6 +12,13 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "vStr_LastVpnSelectCondition&Sequence_80",
+        "vDR_LastVpn&Sequence_80",
+        "vInt_StartPageNumber&Flowchart_11",
+        "vInt_Attempt&Flowchart_11",
+        "tempDataRow&Sequence_77",
+        "oVpnWindow&Sequence_60",
+        "vStrExtractedElement&Flowchart_11",
         "variable1&Flowchart_13",
         "vObj_UiSaveWindow&Flowchart_13",
         "vInt_LastVpn&Flowchart_2",

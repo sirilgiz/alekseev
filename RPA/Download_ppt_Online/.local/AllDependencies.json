@@ -282,15 +282,20 @@
           }
         }
       },
-      "System.Threading.Tasks.Dataflow/4.10.0": {
+      "System.Threading.Tasks.Dataflow/5.0.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/net461/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll": {
+          "lib/net461/System.Threading.Tasks.Dataflow.dll": {
             "related": ".xml"
           }
         }
@@ -687,21 +692,17 @@
           }
         }
       },
-      "UiPath.Telemetry.Client/1.1.51": {
+      "UiPath.Telemetry.Client/1.3.18": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "11.0.1",
-          "System.Threading.Tasks.Dataflow": "4.10.0"
+          "Newtonsoft.Json": "11.0.2",
+          "System.Threading.Tasks.Dataflow": "5.0.0"
         },
         "compile": {
-          "lib/net461/_._": {
-            "related": ".pdb"
-          }
+          "lib/net461/_._": {}
         },
         "runtime": {
-          "lib/net461/TelemetryClient.dll": {
-            "related": ".pdb"
-          }
+          "lib/net461/TelemetryClient.dll": {}
         }
       },
       "UiPath.UIAutomation.Activities/20.4.1": {
@@ -1237,15 +1238,20 @@
           }
         }
       },
-      "System.Threading.Tasks.Dataflow/4.10.0": {
+      "System.Threading.Tasks.Dataflow/5.0.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/net461/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll": {
+          "lib/net461/System.Threading.Tasks.Dataflow.dll": {
             "related": ".xml"
           }
         }
@@ -1642,21 +1648,17 @@
           }
         }
       },
-      "UiPath.Telemetry.Client/1.1.51": {
+      "UiPath.Telemetry.Client/1.3.18": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "11.0.1",
-          "System.Threading.Tasks.Dataflow": "4.10.0"
+          "Newtonsoft.Json": "11.0.2",
+          "System.Threading.Tasks.Dataflow": "5.0.0"
         },
         "compile": {
-          "lib/net461/_._": {
-            "related": ".pdb"
-          }
+          "lib/net461/_._": {}
         },
         "runtime": {
-          "lib/net461/TelemetryClient.dll": {
-            "related": ".pdb"
-          }
+          "lib/net461/TelemetryClient.dll": {}
         }
       },
       "UiPath.UIAutomation.Activities/20.4.1": {
@@ -2243,15 +2245,18 @@
         "system.io.abstractions.nuspec"
       ]
     },
-    "System.Threading.Tasks.Dataflow/4.10.0": {
-      "sha512": "WPI32A1Tf838Yal/XHWdfKrtY/gQxi3MZG2ERC5ljI6RI1YV7Ype1nxc043pv8A8rDLeXmzs4LxxWfEguJ2Dug==",
+    "System.Threading.Tasks.Dataflow/5.0.0": {
+      "sha512": "NBp0zSAMZp4muDje6XmbDfmkqw9+qsDCHp+YMEtnVgHEjQZ3Q7MzFTTp3eHqpExn4BwMrS7JkUVOTcVchig4Sw==",
       "type": "package",
-      "path": "system.threading.tasks.dataflow/4.10.0",
+      "path": "system.threading.tasks.dataflow/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "lib/net461/System.Threading.Tasks.Dataflow.xml",
         "lib/netstandard1.0/System.Threading.Tasks.Dataflow.dll",
         "lib/netstandard1.0/System.Threading.Tasks.Dataflow.xml",
         "lib/netstandard1.1/System.Threading.Tasks.Dataflow.dll",
@@ -2260,7 +2265,7 @@
         "lib/netstandard2.0/System.Threading.Tasks.Dataflow.xml",
         "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll",
         "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.xml",
-        "system.threading.tasks.dataflow.4.10.0.nupkg.sha512",
+        "system.threading.tasks.dataflow.5.0.0.nupkg.sha512",
         "system.threading.tasks.dataflow.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -2533,18 +2538,17 @@
         "uipath.system.activities.nuspec"
       ]
     },
-    "UiPath.Telemetry.Client/1.1.51": {
-      "sha512": "DGvVjdTPO81fqeWgQS9SwHGNQHuXa1yuxWkQ+HxwUZZNPKwzzz3UPLxdIHdddl1bbySRDN79+x6Z87Hwmfxc4g==",
+    "UiPath.Telemetry.Client/1.3.18": {
+      "sha512": "rQhdG9EtQ96eMN5G4qNPxPTlRGTpnB3A3RmNgPQAmAqn5BBBuqhXpUY4TaHAA0qgfERaHoooHpi1p7dHS7AcNg==",
       "type": "package",
-      "path": "uipath.telemetry.client/1.1.51",
+      "path": "uipath.telemetry.client/1.3.18",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "UI_icon.png",
         "lib/net461/TelemetryClient.dll",
-        "lib/net461/TelemetryClient.pdb",
         "lib/netstandard2.0/TelemetryClient.dll",
-        "lib/netstandard2.0/TelemetryClient.pdb",
-        "uipath.telemetry.client.1.1.51.nupkg.sha512",
+        "uipath.telemetry.client.1.3.18.nupkg.sha512",
         "uipath.telemetry.client.nuspec"
       ]
     },
@@ -2774,19 +2778,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\siril\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\takemyslides_admin\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Download_ppt_Online",
       "projectName": "Download_ppt_Online",
-      "projectPath": "E:\\git\\alekseev\\RPA\\Download_ppt_Online\\.local",
-      "packagesPath": "C:\\Users\\siril\\.nuget\\packages\\",
-      "outputPath": "E:\\git\\alekseev\\RPA\\Download_ppt_Online\\.local",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ]
+      "projectPath": "C:\\Users\\takemyslides_admin\\Desktop\\Download_ppt_Online\\.local",
+      "packagesPath": "C:\\Users\\takemyslides_admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\takemyslides_admin\\Desktop\\Download_ppt_Online\\.local"
     },
     "frameworks": {
       "net461": {
@@ -2817,7 +2817,7 @@
             "version": "[20.4.1, 20.4.1]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\siril\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\takemyslides_admin\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
@@ -2825,5 +2825,18 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "UiPath.UIAutomation.Activities 20.4.1 depends on UiPath.Telemetry.Client (>= 1.1.51) but UiPath.Telemetry.Client 1.1.51 was not found. An approximate best match of UiPath.Telemetry.Client 1.3.18 was resolved.",
+      "libraryId": "UiPath.Telemetry.Client",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win10-x64"
+      ]
+    }
+  ]
 }
