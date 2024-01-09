@@ -1,0 +1,15 @@
+@echo off
+echo. 
+echo. 
+echo  ‚ˆŒ€ˆ…!                                       
+echo   „€›‰ ‘Šˆ’ Ž€€’›‚€…’ ‚‘… ”€‰‹›, Ž Œ€‘Š… "15 ‘ˆŒ‚Ž‹Ž‚ + . + €‘˜ˆ…ˆ…", ‚ ’…Š“™…‰ ˆ ‚‘…• ‚‹Ž†…›• €Š€• ˆ ……ˆŒ…Ž‚›‚€…’ ˆ• Ž €‚ˆ‹“:
+echo     XXXXXXXXXXXXXXX.YYY 	= 	XXXX-XX-XX XXXXXXX.YYY
+echo     XXXXXXXXXXXXXXX.YYYY 	= 	XXXX-XX-XX XXXXXXX.YYYY
+echo.
+echo  ‚€†Ž!                                      
+echo   …‘‹ˆ ”€‰‹ ‘ Ž‚›Œ €‡‚€ˆ…Œ “†… ‘“™…‘’‚“…’, ‘Šˆ’ …ƒŽ ……‡€ˆ˜…’!                     
+echo.                                             
+echo.
+@set /p answer=„‹Ÿ Ž„Ž‹†…ˆŸ ‚‚…„ˆ’… 1 + ENTER: 
+if %answer%==1 forfiles /S /M ???????????????.jp*g /C "cmd /v:on /c set f=@file && set n='!f:~1,4!-!f:~5,2!-!f:~7,2! !f:~9!' && set n=!n:~1,-2! && move /Y @path \"!n!"
+rem forfiles /S /M ???????????????.jp*g /C "cmd /v:on /c set f=@file && set n='!f:~1,4!-!f:~5,2!-!f:~7,2! !f:~9!' && set n=!n:~1,-2! && rename @path \"!n!"
