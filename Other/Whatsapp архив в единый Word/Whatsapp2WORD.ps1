@@ -25,7 +25,7 @@ $totalchats = $chatfiles.Count
 
 foreach ($chat in $chatfiles) {
     $c = $c + 1
-    Write-Progress -Activity "ОБРАБОТКА ЧАТОВ" -Status "Обработка $c из $totalchats" -Id 1 -PercentComplete ([int][Math]::Round(($c/$totalchats)*100,0))
+    Write-Progress -Activity "ОБРАБОТКА ЧАТОВ" -Status "обрабатывается $c из $totalchats" -Id 1 -PercentComplete ([int][Math]::Round(($c/$totalchats)*100,0))
     $Document.SaveAs($DocumentPath)
     $Paragraph = $Document.Paragraphs.Add()
     $Paragraph = $Document.Paragraphs($Document.Paragraphs.Count())
@@ -40,7 +40,7 @@ foreach ($chat in $chatfiles) {
     $i = 0
     foreach ($chatmessage in $chattext)  {
         $i = $i + 1
-        Write-Progress -Activity "ОБРАБОТКА СООБЩЕНИЙ В ЧАТЕ $($chat.Directory.Name)" -Status "Обработано $i из $totalmessage" -Id 2 -PercentComplete ([int][Math]::Round(($i/$totalmessage)*100,0))
+        Write-Progress -Activity "ОБРАБОТКА СООБЩЕНИЙ В ЧАТЕ $($chat.Directory.Name)" -Status "обработано $i из $totalmessage" -Id 2 -PercentComplete ([int][Math]::Round(($i/$totalmessage)*100,0)) -ParentId 1
         $Paragraph = $Document.Paragraphs.Add()
         $Paragraph = $Document.Paragraphs($Document.Paragraphs.Count())
         $Paragraph.Range.Font.Size = 12
