@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Афоризмы про деньги",
+  "Type": "App",
+  "Id": "NpN3GQUWcEKOZH6EZd8LpQ",
+  "Reference": "O5tKSikOr0ax8HBeFIkxpA/NpN3GQUWcEKOZH6EZd8LpQ",
+  "Created": "2025-04-14T16:34:24.9411013Z",
+  "Updated": "2025-04-14T16:34:24.9411013Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

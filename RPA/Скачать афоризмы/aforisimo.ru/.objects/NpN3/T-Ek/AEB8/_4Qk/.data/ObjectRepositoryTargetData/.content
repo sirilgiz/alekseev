@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YPc0Tsj6t0m7hRGtxQFRDw" Reference="O5tKSikOr0ax8HBeFIkxpA/_4QkFUQZSUK-RkEukzMgnQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://ru.citaty.net/tsitaty-o-dengakh/?page=12" ContentHash="byjBNc548k6Cp82P6dwJzw" DesignTimeRectangle="567, -43184, 935, 44746" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl class='quote-list' tag='DIV' /&gt;" Guid="11711938-c4c7-4404-a50a-1f2150d5e1ff" Reference="O5tKSikOr0ax8HBeFIkxpA/_4QkFUQZSUK-RkEukzMgnQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Цитаты о деньгах (1230 цитат, страница 12) | Цитаты известных личностей' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b34289b21b66a63d6cc81905600f3bc4.png" xmlns="">0lg8TDlWxZ0ucX_1TRDsjTA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='cite'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='author'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="ru.citaty.net/tsitaty-o-dengakh" CVScreenId="c2c153eb-f0b8-43a8-b924-bc18d544da40" CvElementArea="1108, 831, 106, 55" CvTextArea="1124, 850, 72, 20" CvTextArgument="Aanee &gt;&gt;" CvType="Button" DesignTimeRectangle="1126, 844, 71, 27" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='_ga_next_link' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='_ga_next_link' tag='SPAN' type='' class='' aaname='Далее »' check:innerText='Далее »' /&gt;" Guid="820fd0ad-a70e-47ab-b055-52255c49a3e2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Цитаты о деньгах (1230 цитат, страница 12) | Цитаты известных личностей' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
