@@ -1,1 +1,0 @@
-"E:\Python\Python311\python.exe" "E:\git\alekseev\Python\Telegram_Bot_4_UiPath\takemyslides_test.py"
