@@ -1,7 +1,0 @@
-1. Add this lines to hosts file (C:\Windows\System32\drivers\etc):
-127.0.0.1	69.10.55.96
-127.0.0.1	alfaebooks.com
-
-2. Add "lgCAAMSvCWL269YBJwB1c2VybmFtZT1nYWdtZW5nI2dyb3VwPXd3dy5jaGluYXB5Zy5jb20BBCMWYUtnsya+fekLvPymyajIqoyMeh4YnlFnBjF+Nn7E0qWWZiXc5xU+UqWCg25hMw==" to "C:\Users\%username%\AppData\Roaming\Alfa.NetSoft\Alfa Ebooks Manager\aem.license"
-
-Enjoy )))
